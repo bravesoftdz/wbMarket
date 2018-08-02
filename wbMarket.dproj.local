@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/22 14:47:11.000.455,=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/02 18:03:09.007,=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/02 18:03:53.242,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmPrincipal.pas=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/02 18:03:53.242,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmPrincipal.dfm=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/02 18:04:13.437,=C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\Controller\uControllerConnection.pas</Transaction>
+    <Transaction>2018/08/02 18:04:28.304,=C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\DAO\uConnection.pas</Transaction>
+    <Transaction>2018/08/02 18:05:08.380,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\wbMarket.dproj=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

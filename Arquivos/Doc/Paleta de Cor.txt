@@ -1,0 +1,4 @@
+Paleta de Cores do panel Background - Principal
+
+Panel Top - 000A19
+Panel Menu - 000A19 + 091629

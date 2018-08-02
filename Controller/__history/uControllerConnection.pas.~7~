@@ -1,0 +1,43 @@
+unit uControllerConnection;
+
+interface
+
+uses
+  uConnection, System.SysUtils;
+
+type
+  TControllerConn = class
+  public
+    FConnection: TConnection;
+
+    class var FInstance: TControllerConn;
+  private
+    class function GetInstace(): TControllerConn;
+
+    property Connection: TConnection read FConnection write FConnection;
+
+    constructor Create;
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{ TControllerConn }
+
+constructor TControllerConn.Create;
+begin
+  FConnection := TConnection.Create;
+end;
+
+destructor TControllerConn.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerConn.GetInstace: TControllerConn;
+begin
+
+end;
+
+end.

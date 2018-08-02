@@ -1,0 +1,19 @@
+unit uControllerConnection;
+
+interface
+
+uses
+  uConnection, System.SysUtils;
+
+type
+  TControllerConn = class
+  public
+    FConnection: TConnection;
+
+    class var FInstance: TControllerConn;
+  private
+  end;
+
+implementation
+
+end.
