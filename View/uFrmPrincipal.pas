@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
 
 type
   TFrmPrincipal = class(TForm)
@@ -12,6 +13,11 @@ type
     imgBackgroundMenu: TImage;
     imgClose: TImage;
     imgMinizar: TImage;
+    imgwbMarket: TImage;
+    imgBtnCadastro: TImage;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
     procedure imgCloseClick(Sender: TObject);
     procedure imgBackgroundTOPMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);

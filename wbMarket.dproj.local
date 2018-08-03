@@ -3,10 +3,23 @@
 	<Transactions>
     <Transaction>2018/07/22 14:47:11.000.455,=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2018/08/02 18:03:09.007,=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/08/02 18:03:53.242,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmPrincipal.pas=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2018/08/02 18:03:53.242,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmPrincipal.dfm=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/02 18:03:53.242,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmPrincipal.pas=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2018/08/02 18:04:13.437,=C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\Controller\uControllerConnection.pas</Transaction>
     <Transaction>2018/08/02 18:04:28.304,=C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\DAO\uConnection.pas</Transaction>
     <Transaction>2018/08/02 18:05:08.380,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\wbMarket.dproj=C:\Users\lynka\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/02 18:38:15.949,=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Controlle\uClienteControl.pas</Transaction>
+    <Transaction>2018/08/02 18:38:36.589,=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Dao\uClienteDao.pas</Transaction>
+    <Transaction>2018/08/02 18:38:58.570,=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Model\uClienteModel.pas</Transaction>
+    <Transaction>2018/08/02 18:39:22.468,=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Model\uEnumerado.pas</Transaction>
+    <Transaction>2018/08/02 18:39:42.247,=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\View\uFrmClienteView.pas</Transaction>
+    <Transaction>2018/08/02 18:40:45.027,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmCliente.pas=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\View\uFrmClienteView.pas</Transaction>
+    <Transaction>2018/08/02 18:40:45.027,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmCliente.dfm=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\View\uFrmClienteView.dfm</Transaction>
+    <Transaction>2018/08/02 18:41:36.264,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\Model\uClienteModel.pas=C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Model\uClienteModel.pas</Transaction>
+    <Transaction>2018/08/02 18:45:19.292,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\View\uFrmCliente.pas=</Transaction>
+    <Transaction>2018/08/02 18:45:27.894,C:\Users\lynka\Documents\Projeto de Vendas - Delphi\wbMarket\Model\uClienteModel.pas=</Transaction>
+    <Transaction>2018/08/02 18:45:32.039,C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Dao\uClienteDao.pas=</Transaction>
+    <Transaction>2018/08/02 18:45:36.869,C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Controlle\uClienteControl.pas=</Transaction>
+    <Transaction>2018/08/02 18:45:45.993,C:\Users\lynka\Downloads\MVC_Delphi-master\MVC_Delphi-master\Model\uEnumerado.pas=</Transaction>
   </Transactions>
 </BorlandProject>
