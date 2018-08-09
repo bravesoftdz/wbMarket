@@ -1,4 +1,17 @@
 Paleta de Cores do panel Background - Principal
 
-Panel Top - 000A19
-Panel Menu - 000A19 + 091629
+Panel Menu - #212121
+Logo Dark - #303F9F 
+Logo Primary - #3F51B5 
+--------------------------
+Base do sistema 
+
+Dark cor primaria - #303F9F
+Light cor primaria - #C5CAE9
+cor primaria - #3F51B5
+Texto e icones - #FFFFFF
+Acentuacao de cor #448AFF
+Texto / Background 
+Primaria - #212121
+Secundaria - #757575
+#BDBDBD

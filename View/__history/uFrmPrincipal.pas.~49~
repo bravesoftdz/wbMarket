@@ -11,6 +11,8 @@ type
   TFrmPrincipal = class(TForm)
     imgBackgroundTOP: TImage;
     imgBackgroundMenu: TImage;
+    imgClose: TImage;
+    imgMinizar: TImage;
     imgwbMarket: TImage;
     btnCadastro: TSpeedButton;
     imgCadastro: TImage;
@@ -30,7 +32,6 @@ type
     procedure imgBackgroundTOPDblClick(Sender: TObject);
     procedure imgMinizarClick(Sender: TObject);
     procedure btnCadastroClick(Sender: TObject);
-    procedure btnSairClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,12 +58,6 @@ begin
   finally
     FreeAndNil(lBaseCadastro);
   end;
-end;
-
-procedure TFrmPrincipal.btnSairClick(Sender: TObject);
-begin
-  if Application.MessageBox('Deseja realmente sair do sistema ?', 'Atenção', MB_ICONQUESTION + MB_YESNO) = mrYes then
-    Application.Terminate;
 end;
 
 procedure TFrmPrincipal.imgBackgroundTOPDblClick(Sender: TObject);

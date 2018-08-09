@@ -5,32 +5,22 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
-  Vcl.StdCtrls, Vcl.ComCtrls, Vcl.Buttons;
+  Vcl.StdCtrls, Vcl.ComCtrls;
 
 type
   TFrmPrincipal = class(TForm)
     imgBackgroundTOP: TImage;
     imgBackgroundMenu: TImage;
+    imgClose: TImage;
+    imgMinizar: TImage;
     imgwbMarket: TImage;
-    btnCadastro: TSpeedButton;
-    imgCadastro: TImage;
-    btnVendas: TSpeedButton;
-    btnFinanceiro: TSpeedButton;
-    btnRelatorios: TSpeedButton;
-    btnConfiguracao: TSpeedButton;
-    btnSair: TSpeedButton;
-    imgVendas: TImage;
-    imgFinanceiro: TImage;
-    imgRelatorios: TImage;
-    imgConfiguracoes: TImage;
-    imgSair: TImage;
+    imgBtnCadastro: TImage;
     procedure imgCloseClick(Sender: TObject);
     procedure imgBackgroundTOPMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure imgBackgroundTOPDblClick(Sender: TObject);
     procedure imgMinizarClick(Sender: TObject);
-    procedure btnCadastroClick(Sender: TObject);
-    procedure btnSairClick(Sender: TObject);
+    procedure imgBtnCadastroClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -42,28 +32,7 @@ var
 
 implementation
 
-uses
-  uFrmBaseCadastro;
-
 {$R *.dfm}
-
-procedure TFrmPrincipal.btnCadastroClick(Sender: TObject);
-var
-  lBaseCadastro: TFrmBaseCadastro;
-begin
-  lBaseCadastro := TFrmBaseCadastro.Create(nil);
-  try
-    lBaseCadastro.ShowModal;
-  finally
-    FreeAndNil(lBaseCadastro);
-  end;
-end;
-
-procedure TFrmPrincipal.btnSairClick(Sender: TObject);
-begin
-  if Application.MessageBox('Deseja realmente sair do sistema ?', 'Atenção', MB_ICONQUESTION + MB_YESNO) = mrYes then
-    Application.Terminate;
-end;
 
 procedure TFrmPrincipal.imgBackgroundTOPDblClick(Sender: TObject);
 begin
@@ -77,6 +46,11 @@ const
 begin
   ReleaseCapture;
   Perform(wm_SysCommand, sc_DragMove, 0);
+end;
+
+procedure TFrmPrincipal.imgBtnCadastroClick(Sender: TObject);
+begin
+  pgcPrincipal.ActivePage := TbsCadastro;
 end;
 
 procedure TFrmPrincipal.imgCloseClick(Sender: TObject);

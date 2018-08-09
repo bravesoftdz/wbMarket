@@ -11,6 +11,8 @@ type
   TFrmPrincipal = class(TForm)
     imgBackgroundTOP: TImage;
     imgBackgroundMenu: TImage;
+    imgClose: TImage;
+    imgMinizar: TImage;
     imgwbMarket: TImage;
     btnCadastro: TSpeedButton;
     imgCadastro: TImage;

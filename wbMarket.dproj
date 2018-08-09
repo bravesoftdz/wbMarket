@@ -105,6 +105,10 @@
         </DCCReference>
         <DCCReference Include="Controller\uControllerConnection.pas"/>
         <DCCReference Include="DAO\uConnection.pas"/>
+        <DCCReference Include="View\uFrmBaseCadastro.pas">
+            <Form>FrmBaseCadastro</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
